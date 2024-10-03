@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  transition: all 0.5s ease;
+}
+body {
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.calc-app {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 30px #8a817c;
+}
+.theme-switch {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 1;
+}
+.theme-switch.active {
+  color: #333;
+}
+.theme-switch.active::before {
+  background-color: #fff;
+}
+.theme-switch::before {
+  content: "";
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: #333;
+  z-index: -1;
+}
+#output {
+  margin: 0 10px;
+  height: 150px;
+  width: auto;
+  max-width: 270px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 30px;
+  margin-bottom: 20px;
+  overflow-x: scroll;
+}
+#output::-webkit-scrollbar {
+  display: block;
+  height: 3px;
+}
+button {
+  height: 60px;
+  width: 60px;
+  border: 0;
+  border-radius: 30px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+button:hover {
+  transform: scale(1.1);
+}
+button#equals {
+  height: 130px;
+}
+
+.calc-app {
+  background-color: #fbfefb;
+}
+.calc-app #output {
+  color: #0a1e23;
+}
+.calc-app button#reset {
+  background-color: #db7f8e;
+  color: #ffdbda;
+}
+.calc-app button.num-btn {
+  background-color: #339989;
+  color: #7de2d1;
+}
+.calc-app button.operator-btn {
+  background-color: #b6a6ca;
+  color: #f1e4f3;
+}
+.calc-app button.equal-btn {
+  background-color: #19647e;
+  color: #eee5e5;
+}
+
+.calc-app.dark-mode {
+  background-color: #071115;
+}
+.calc-app.dark-mode #output {
+  color: #f8fafd;
+}
+.calc-app.dark-mode button#reset {
+  background-color: #785964;
+  color: #d5c7bc;
+}
+.calc-app.dark-mode button.num-btn {
+  background-color: #3a606e;
+  color: #f8fafb;
+}
+.calc-app.dark-mode button.operator-btn {
+  background-color: #afbfc0;
+  color: #4e8098;
+}
+.calc-app.dark-mode button.equal-btn {
+  background-color: #566246;
+}

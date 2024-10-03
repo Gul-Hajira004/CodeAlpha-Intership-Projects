@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Theme Switcher Calculator</title>
+  <link rel="stylesheet" href="./newStyle.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="calc-app dark-mode">
+    <div class="theme-switch active">
+      <i class="icon-switch"></i>
+    </div>
+    <div class="screen">
+      <div id="output"></div>
+    </div>
+    <div class="keys">
+      <table>
+        <tr>
+          <td><button class="operator-btn" id="reset">C</button></td>
+          <td><button class="operator-btn" id="divide">&divide;</button></td>
+          <td><button class="operator-btn" id="multiply">&times;</button></td>
+          <td><button class="operator-btn" id="del"><</button></td>
+        </tr>
+        <tr>
+          <td><button class="num-btn" id="seven">7</button></td>
+          <td><button class="num-btn" id="eight">8</button></td>
+          <td><button class="num-btn" id="nine">9</button></td>
+          <td><button class="operator-btn" id="subtract">-</button></td>
+        </tr>
+        <tr>
+          <td><button class="num-btn" id="four">4</button></td>
+          <td><button class="num-btn" id="five">5</button></td>
+          <td><button class="num-btn" id="six">6</button></td>
+          <td><button class="operator-btn" id="add">+</button></td>
+        </tr>
+        <tr>
+          <td><button class="num-btn" id="one">1</button></td>
+          <td><button class="num-btn" id="two">2</button></td>
+          <td><button class="num-btn" id="three">3</button></td>
+          <td rowspan="2"><button class="equal-btn" id="equals">=</button></td>
+        </tr>
+        <tr>
+          <td><button class="operator-btn" id="open-paren">(</button></td>
+          <td><button class="num-btn" id="zero">0</button></td>
+          <td><button class="operator-btn" id="close-paren">)</button></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+  <script src="./newScript.js"></script>
+</body>
+</html>
