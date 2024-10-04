@@ -37,4 +37,31 @@ Create an interactive image gallery where images expand upon clicking, providing
 + *OUTCOME*: Gallery offering a seamless, intuitive user interface that enhances image display. 
 + *FUTURE ENHANCEMENTS*: In the future, gallery can integrate lazy loading for images, add a full-screen viewing option, or include dynamic image content fetched from a server or API to make the gallery more interactive and scalable.
 --- ---
+### TASK 3: Music Player
+---
+### *OBJECTIVE*: 
+Develop a stylish music player that allows users to play, pause, navigate between songs, control volume, and track progress dynamically with visually appealing album art.
++ *DESCRIPTION*:
+  - Load songs dynamically with corresponding album covers.
+  - Control song playback with play/pause, next, and previous buttons.
+  - Display and update song duration and progress in real-time.
+  - Volume control integrated for a smooth user experience.
++ *KEY STEPS* :
+  - Dynamic album art and song details.
+  - Play, pause, next, and previous song functionalities.
+  - Real-time progress and volume control.
++ *TECHNOLOGIES USED*: HTML,CSS,Javascript
++ *OUTCOME*: A functional and visually engaging music player that enhances user interaction.
++ *FUTURE ENHANCEMENTS*:
+   - Playlist support and shuffle functionality.
+   - Additional audio effects like equalizer or repeat mode.
+   - Integration with popular music streaming APIs (e.g., Spotify).
+--- ---
+
+
+
+
+
+
+--- ---
 
