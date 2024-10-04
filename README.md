@@ -19,3 +19,22 @@ The objective of this project is to design and implement a calculator with a the
 + *OUTCOME*: Functional calculator with a responsive interface, supporting basic arithmetic operations and theme-switching between dark and light modes, enhancing both usability and visual appeal.
 + *FUTURE ENHANCEMENTS*: In the future, this calculator can be expanded to include advanced mathematical functions, such as trigonometric and logarithmic calculations, as well as features like history tracking, memory functions, and customizable themes, further enhancing its usability and versatility for users.
 --- ---
+### TASK 2: Image Gallery
+---
+### *OBJECTIVE*: 
+Create an interactive image gallery where images expand upon clicking, providing a visually engaging user experience.
++ *DESCRIPTION*:
+  - The gallery contains multiple panels, each displaying a background image and a title for different locations.
+  - Upon clicking a panel, it expands, while others shrink, ensuring only one panel is prominent at a time.
+  - The system is responsive, hiding some images on smaller screens for optimized viewing. 
+  - JavaScript enables click functionality, controlling which panel expands and collapses.
++ *KEY STEPS* :
+  - Structure the HTML layout with div elements for each panel.
+  - Style panels using CSS for background images, text, and responsiveness.
+  - Implement a flex-based layout that dynamically adjusts the panel sizes.
+  - Add JavaScript to manage click events, expanding and collapsing panels.
++ *TECHNOLOGIES USED*: HTML,CSS,Javascript
++ *OUTCOME*: Gallery offering a seamless, intuitive user interface that enhances image display. 
++ *FUTURE ENHANCEMENTS*: In the future, gallery can integrate lazy loading for images, add a full-screen viewing option, or include dynamic image content fetched from a server or API to make the gallery more interactive and scalable.
+--- ---
+
